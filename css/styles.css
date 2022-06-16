@@ -1,0 +1,254 @@
+:root {
+    /* fonts */
+    --main-font: "Roboto";
+    --logo-font: "Raleway";
+
+    /* text color */
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --title-text-color: #FFFFFF;
+
+    /* bg-colors */
+    --main-bg-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --title-bg-color: #2F303A;
+    --accent-bg-color: #2196F3;
+    
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: var(--main-font), sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+/* Common style */
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background-color: var(--main-bg-color)
+}
+
+.header-logo {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--main-text-color)
+}
+
+.logo-studio {
+    color: var(--accent-text-color)
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color)
+}
+
+.current {
+    color: var(--accent-text-color);
+}
+
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-text-color)
+}
+
+.header-link-contact {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color)
+}
+
+.header-link-contact:hover,
+.header-link-contact:focus {
+    color: var(--accent-text-color)
+}
+
+/* Main section */
+
+/* Lead banner */
+
+.lead {
+    background-color: var(--title-bg-color);
+}
+
+.lead-slogan {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--title-text-color)
+}
+
+.lead-btn {
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    background: var(--accent-bg-color);
+    border: none;
+    cursor: pointer;
+}
+
+.lead-btn:hover,
+.lead-btn:focus {
+    background: #188CE8;
+}
+
+/* Advantages section */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.advantages-subtitle {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantages-desc {
+    line-height: 1.71;
+    color: var(--secondary-text-color)
+}
+
+/* Activity section */
+
+.title {
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--title-bg-color)
+}
+
+/* Team section */
+
+.team {
+    background-color: var(--secondary-bg-color);
+}
+
+.team-item {
+    background-color: var(--main-bg-color);
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color)
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--title-bg-color);
+}
+
+.footer-logo {
+    font-family: var(--logo-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-text-color)
+}
+
+.footer-contact-link {
+    font-style: normal;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contact-link:hover,
+.footer-contact-link:focus {
+    color: var(--accent-text-color)
+}
+
+.footer-map {
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--title-text-color)
+}
+
+/* Portfolio section */
+
+/* Filter by projects */
+
+.filter-btn {
+    border-radius: 4px;
+    padding: 6px 22px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    background-color: var(--secondary-bg-color);
+    border: none;
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--title-text-color);
+    background: var(--accent-bg-color)
+}
+
+.active {
+    color: var(--title-text-color);
+    background-color: var(--accent-bg-color)
+}
+
+/* Project examples */
+
+.projects-subtitle {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+.projects-desc {
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--secondary-text-color)
+}
