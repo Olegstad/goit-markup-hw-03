@@ -48,8 +48,14 @@ a {
 
 .container {
     width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    outline: solid 2px tomato;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 /* Header */
