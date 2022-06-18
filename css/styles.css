@@ -185,11 +185,12 @@ h1, h2, h3, h4, p {
     display: block;
 }
 
-/* Main section */
+/* Main */
 
 /* Lead banner */
 
 .lead {
+    text-align: center;
     background-color: var(--title-bg-color);
 }
 
@@ -197,8 +198,8 @@ h1, h2, h3, h4, p {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
+    text-align: center;
     text-transform: uppercase;
     color: var(--title-text-color)
 }
