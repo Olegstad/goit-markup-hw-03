@@ -91,7 +91,8 @@ section {
 
 /* Header */
 .header {
-    background-color: var(--main-bg-color)
+    background-color: var(--main-bg-color);
+    border: 1px solid #ECECEC;
 }
 
 /* container-header */
