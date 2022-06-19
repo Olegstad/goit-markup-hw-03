@@ -40,6 +40,7 @@ body {
 /* Common style */
 ul {
     list-style: none;
+    margin: 0;
     padding: 0;
 }
 
@@ -68,7 +69,7 @@ h1, h2, h3, h4, p {
     outline: solid 2px tomato;
 }
 
-.section {
+section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -190,11 +191,21 @@ h1, h2, h3, h4, p {
 /* Lead banner */
 
 .lead {
-    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
     background-color: var(--title-bg-color);
 }
 
+.container-lead {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
 .lead-slogan {
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -210,9 +221,6 @@ h1, h2, h3, h4, p {
     font-family: inherit;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--title-text-color);
     background: var(--accent-bg-color);
@@ -227,7 +235,17 @@ h1, h2, h3, h4, p {
 
 /* Advantages section */
 
+.advantages-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-list .advantages-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .advantages-subtitle {
+    margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
