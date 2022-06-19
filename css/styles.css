@@ -328,10 +328,14 @@ section {
 /* Footer */
 
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--title-bg-color);
 }
 
 .footer-logo {
+    display: block;
+    margin-bottom: 20px;
     font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
@@ -348,6 +352,10 @@ section {
 .footer-contact-link:hover,
 .footer-contact-link:focus {
     color: var(--accent-text-color)
+}
+
+.footer-contact-list .footer-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-map {
