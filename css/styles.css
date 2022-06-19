@@ -258,7 +258,24 @@ section {
 
 /* Activity section */
 
+.activity {
+    padding-top: 0;
+}
+
+.container-activity {
+    text-align: center;
+}
+
+.activity-list {
+    display: flex;
+}
+
+.activity-list .activity-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .title {
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     color: var(--title-bg-color)
@@ -270,11 +287,28 @@ section {
     background-color: var(--secondary-bg-color);
 }
 
+.container-team {
+    text-align: center;
+}
+
+.team-list {
+    display: flex;
+}
+
+.team-list .team-item:not(:last-child) {
+    margin-right: 30px;
+}
+
 .team-item {
     background-color: var(--main-bg-color);
 }
 
+.team-avatar {
+    margin-bottom: 30px;
+}
+
 .team-name {
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -282,6 +316,7 @@ section {
 }
 
 .team-position {
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
