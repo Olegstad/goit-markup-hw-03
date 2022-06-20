@@ -236,11 +236,14 @@ h1, h2, h3, h4, p {
 
 .advantages-list {
     display: flex;
-    justify-content: space-between;
 }
 
 .advantages-list .advantages-item:not(:last-child) {
     margin-right: 30px;
+}
+
+.advantages-item {
+    width: 270px;
 }
 
 .advantages-subtitle {
