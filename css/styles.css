@@ -150,6 +150,8 @@ section {
 }
 
 .header-link-contact {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -179,8 +181,8 @@ section {
     margin-left: auto;
 }
 
-.header-contact .header-contact-item+.header-contact-item {
-    margin-left: 50px;
+.header-contact .header-contact-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .header-link-contact {
