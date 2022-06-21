@@ -307,8 +307,9 @@ h1, h2, h3, h4, p {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-avatar {
-    margin-bottom: 30px;
+.team-tank {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .team-name {
@@ -320,7 +321,6 @@ h1, h2, h3, h4, p {
 }
 
 .team-position {
-    margin-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
