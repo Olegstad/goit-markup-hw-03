@@ -388,8 +388,7 @@ h1, h2, h3, h4, p {
 }
 
 .project-tank {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 24px;
 }
 
 .projects-subtitle {
